@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    border-bottom: 3px solid gray;
+    gap: 20px;
+    padding: 1.2rem;
+}
+header > div {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+#signup {
+    margin: 6rem 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: column wrap;
+    gap: 2rem; 
+}
+#signup > h1 {
+    font-size: 4rem;
+}
+button {
+    background-color: white;
+    color: black;
+    padding: 1rem 2.5rem;
+    font-weight: bold;
+}
+input {
+    align-self: stretch;
+    border: none;
+    border-bottom: 2px solid gray;
+    padding: .5rem 0;
+    font-size: 1.3rem;
+    margin: 0 1rem;
+}
+input:focus {
+    outline: none;
+}
+#profile {
+    display: none;
+    margin: 3rem;
+}
+#profile > h1 {
+    margin: 2rem;
+}
